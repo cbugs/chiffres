@@ -10,7 +10,7 @@ Answer:
 [['(((4*6)*10)+5)'], ['(((4*6)*10)+5)'], ['(((4*10)-5)*7)'], ['(((4*10)-5)*7)'], ['(((4*10)*6)+5)']]
 
 
-Simply run "python run.py 4,5,5,6,7,10 245 <limit>"
+Simply run "python run.py 4,5,5,6,7,10 245 &lt;limit&gt;"
 
 The limit is 5 by default
 
