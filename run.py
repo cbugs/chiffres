@@ -48,7 +48,10 @@ for numb in range(0, len(numbs) + 1):
     if len(returns) >= limit:
         break  
     for subset in itertools.permutations(numbs, numb):
-        returns.append(chiffres(subset, result))
+        chiffre = chiffres(subset, result)
+        #check if not duplicate
+        if chiffre not in returns:
+            returns.append(chiffre)
         returns = filter(None, returns)
         if len(returns) >= limit:
             break
