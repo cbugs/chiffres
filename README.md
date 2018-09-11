@@ -12,6 +12,6 @@ Answer:
 
 Simply run "python run.py 4,5,5,6,7,10 245 &lt;limit&gt;"
 
-The limit is 5 by default test
+The limit is 5 by default testd
 
 
